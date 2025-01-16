@@ -10,10 +10,15 @@ let newScore = Number(score)
 // true => 1 and false => 0 
 let isLogged = 1
 let newLogged = Boolean(isLogged)
-console.log(typeof isLogged)
-console.log(typeof newLogged)
+//console.log(typeof isLogged)
+//console.log(typeof newLogged)
 
 // when converted to boolean
 // 1 => true & 0 => false
 //"" => false
 //"hello" => true
+
+let someNumber = 33
+let stringNumber = String(someNumber)
+console.log(stringNumber)
+console.log(typeof stringNumber)
